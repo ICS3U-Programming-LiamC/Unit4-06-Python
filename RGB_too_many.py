@@ -25,9 +25,9 @@ def main():
     print("starting in 1")
     time.sleep(1)
     # the blob of for loops, all the stuff happens here
-    for counterRed in range(0, 255):
-        for counterGreen in range(0, 255):
-            for counterBlue in range(0, 255):
+    for counterRed in range(0, 256):
+        for counterGreen in range(0, 256):
+            for counterBlue in range(0, 256):
                 print("{0}, {1}, {2}".format(counterRed,
                       counterGreen, counterBlue))
 
